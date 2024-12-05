@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionAutomatedQA">
+    <test name="SearchPlaystationTest">
+        <classes>
+            <class name="testCases.SearchPlaystationTest"/>
+        </classes>
+    </test>
+    <test name="SearchSmartTVTest">
+        <classes>
+            <class name="testCases.SearchSmartTVTest"/>
+        </classes>
+    </test>
+    <test name="BellezaCategoryTest">
+        <classes>
+            <class name="testCases.BellezaCategoryTest"/>
+        </classes>
+    </test>
+</suite>
